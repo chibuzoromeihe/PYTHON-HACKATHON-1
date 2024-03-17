@@ -14,7 +14,7 @@ def To_generate_fibonacci_sequence(n):
     return fibonacci_sequence[: n] #This returns the first terms of the fibonacci sequence
 
 def main():
-    n = int(input("Enter the number of terms for fibonacci sequence: "));# Ask user to provide the value of n
+    n = int(input("Enter the number of terms 'n' for fibonacci sequence: "));# Ask user to provide the value of n
     
     fibonacci_sequence = To_generate_fibonacci_sequence(n); # generating the fibonacci sequence
     
